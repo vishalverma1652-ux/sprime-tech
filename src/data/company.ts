@@ -1,0 +1,106 @@
+export const COMPANY_INFO = {
+  name: 'Shivam Prime Enterprises',
+  tradeName: 'Sprime Tech',
+  motto: 'INNOVATE | CONNECT | EVOLVE',
+  logoUrl: '/assets/aistudio/WhatsApp_Image_2026-11-07_at_2.57.05_PM_e025a570.jpeg',
+  tagline: 'Reliable Metering & Commercial Lighting for Every Project',
+  description:
+    'Leading wholesale supplier & distributor of BIS-certified single & three-phase energy meters, ABT grid meters, current transformers, and heavy-duty Halonix commercial LED lighting in Faridabad & Delhi-NCR.',
+  gstin: '06SHGPS9455C1ZM',
+  phone: '+91 8130669395',
+  phoneDisplay: '+91 81306 69395',
+  whatsappUrl: 'https://wa.me/918130669395',
+  email: 'sprimetech30@gmail.com',
+  address: '108 Titu Enclave, Dheeraj Nagar, 44 Foot Road, Faridabad – 121003, Haryana',
+  shortAddress: 'Dheeraj Nagar, 44 Foot Road, Faridabad - 121003',
+  googleMapsUrl: 'https://maps.google.com/?q=108+Titu+Enclave+Dheeraj+Nagar+Faridabad+Haryana+121003',
+  workingHours: 'Mon – Sat: 9:30 AM to 7:30 PM (Sunday by appointment)',
+  establishedYear: '2019',
+  stats: [
+    { label: 'Products In Stock', value: '50,000+', subtext: 'Ready for same-day dispatch' },
+    { label: 'Turnaround Time', value: '< 24 Hrs', subtext: 'For Delhi-NCR orders' },
+    { label: 'Contractors & OEMs', value: '450+', subtext: 'Trust our wholesale supply' },
+    { label: 'GST Compliant', value: '100%', subtext: 'Full input tax credit billing' },
+  ],
+  brands: [
+    { name: 'Secure Meters', category: 'Energy & Smart Meters', logoText: 'SECURE' },
+    { name: 'L&T Electrical & Automation', category: 'Industrial Switchgear & Meters', logoText: 'L&T' },
+    { name: 'HPL Electric & Power', category: 'Meters & Panel Accessories', logoText: 'HPL' },
+    { name: 'Halonix Technologies', category: 'Commercial & Street Lighting', logoText: 'HALONIX' },
+    { name: 'Havells India', category: 'Cables & Industrial Lighting', logoText: 'HAVELLS' },
+    { name: 'Crompton Greaves', category: 'Pumps & Industrial Luminaires', logoText: 'CROMPTON' },
+    { name: 'Orient Electric', category: 'Commercial Lighting', logoText: 'ORIENT' },
+  ],
+  certifications: [
+    { code: 'IS 13779', title: 'Single & Polyphase AC Static Watt-hour Meters Class 1 & 2' },
+    { code: 'IS 14697', title: 'AC Static Transformer Operated Watt-hour & VAR-hour Meters (Class 0.2S / 0.5S)' },
+    { code: 'IS 2705', title: 'Current Transformers for Metering & Differential Protection' },
+    { code: 'IS 10322', title: 'Luminaires - General & Photometric Safety Standards' },
+    { code: 'IP66 / IK08', title: 'Ingress & Impact Resistance Tested for Outdoor Environments' },
+    { code: 'BIS & BEE', title: 'Bureau of Indian Standards & BEE Energy Star Ratings' },
+  ],
+  applications: [
+    {
+      title: 'Discom & Smart City Roadways',
+      desc: 'Poles and highway street lighting installations with surge-protected 30W-150W LED luminaires and DLMS/COSEM compliant smart meters.',
+      icon: 'Road',
+      category: 'Infrastructure',
+    },
+    {
+      title: 'Industrial Plants & Substation Yards',
+      desc: 'Heavy-duty 11kV/33kV oil-cooled and cast resin CTs paired with Secure Elite 500 multifunction meters for sub-station feeder monitoring.',
+      icon: 'Factory',
+      category: 'Heavy Industry',
+    },
+    {
+      title: 'Commercial Office & Retail Fitouts',
+      desc: 'High lumen-efficiency 2x2 recessed ceiling panels (36W/40W) and architectural cove strip lights for energy-optimized workspace environments.',
+      icon: 'Building2',
+      category: 'Commercial',
+    },
+    {
+      title: 'Group Housing & High-Rise Sub-Metering',
+      desc: 'Prepayment keypad/smart-card energy meters and dual-source (Mains/DG) sub-meters for fair residential association tenant billing.',
+      icon: 'Home',
+      category: 'Residential',
+    },
+    {
+      title: 'Solar PV & Open Access ABT Tariff',
+      desc: 'Class 0.2S Availability Based Tariff (ABT) meters with 15-minute block recording, optical port, and Modbus RS485 for grid compliance.',
+      icon: 'Sun',
+      category: 'Renewables',
+    },
+    {
+      title: 'Warehousing & High-Bay Floodlighting',
+      desc: 'Die-cast aluminium IP66 flood lights (50W to 200W) with optical beam lenses for secure logistics perimeters and staging yards.',
+      icon: 'Warehouse',
+      category: 'Logistics',
+    },
+  ],
+  faqs: [
+    {
+      q: 'Are your energy meters approved for state electricity discoms (DHBVN, UHBVN, BSES, TPDDL, etc.)?',
+      a: 'Yes, our Secure, L&T, and HPL static energy meters comply with IS 13779 / IS 14697 and are widely accepted across Haryana (DHBVN/UHBVN), Delhi (BSES Rajdhani/Yamuna, Tata Power DDL), and Uttar Pradesh (PVVNL/NPCL) for consumer, commercial, and sub-metering installations. NABL calibration test certificates can be provided upon request.',
+    },
+    {
+      q: 'Do you provide GST tax invoices for wholesale electrical procurement?',
+      a: 'Absolutely. Shivam Prime Enterprises is a 100% GST-registered entity (GSTIN: 06SHGPS9455C1ZM). All goods are dispatched with legitimate e-way bills and GST tax invoices (HSN 9028 for energy meters, HSN 9405 for LED luminaires, HSN 8504 for instrument transformers) enabling full 18% Input Tax Credit (ITC) claiming for contractors and businesses.',
+    },
+    {
+      q: 'What is the delivery turnaround time for Delhi-NCR and outstation projects?',
+      a: 'For Delhi-NCR (Faridabad, Gurugram, Delhi, Noida, Greater Noida, Ghaziabad), we offer same-day or next-day direct vehicle delivery from our Faridabad godown. For outstation locations across Haryana, Rajasthan, UP, Punjab, and Pan-India, goods are dispatched via trusted transport carriers (V-Trans, TCI, Safechem) within 24 hours of PO confirmation.',
+    },
+    {
+      q: 'How does the wholesale pricing and tiered discount work for large BOQ quantities?',
+      a: 'We offer wholesale slab pricing directly linked to order volume. Bulk tender quantities (50+ units of street lights or 100+ meters) receive preferential project discount rates. You can add items to your online BOQ builder on this site and send it directly via WhatsApp to receive a formal signed quotation within 30 minutes.',
+    },
+    {
+      q: 'What warranty support is provided on Halonix LED fixtures and Secure meters?',
+      a: 'Halonix commercial LED luminaires carry a standard manufacturer warranty of 2 to 5 years (depending on model) covering driver and LED failure with hassle-free replacement. Secure energy meters carry manufacturer warranties with guaranteed field performance against tampering and voltage surges.',
+    },
+    {
+      q: 'Can you supply custom CT ratios and dual-core protection CTs?',
+      a: 'Yes, we supply both indoor cast-resin current transformers (3.3 kV to 11 kV) and outdoor oil-cooled CTs (up to 33 kV) in dual-core configurations (Metering Core Class 0.5/0.2 + Protection Core 5P10/5P20) built to project specifications and state grid requirements.',
+    },
+  ],
+};

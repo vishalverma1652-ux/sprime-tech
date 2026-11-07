@@ -1,0 +1,6 @@
+{
+  "name": "Sprime Tech - Energy Meters & Commercial LED Lighting",
+  "description": "Wholesale supplier of Secure, L&T, and HPL energy meters, CTs, and Halonix commercial LED lighting in Faridabad, Delhi-NCR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
